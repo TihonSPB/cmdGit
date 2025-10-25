@@ -1,5 +1,5 @@
 ﻿
-<h2 align="center" id="title1" style="color: rgb(0, 128, 0);">Установка GIT</h2>
+<h2 align="center" id="title1">$\color{#ff3d6a}{Установка GIT}$</h2>
 
 Скачать и установить https://git-scm.com/
 
@@ -8,7 +8,7 @@
 git
 ```  
 
-<h2 align="center" id="title2" color="цвет">Настройка</h2>
+<h2 align="center" id="title2">Настройка</h2>
 
 Проверить версию GIT
 ```
