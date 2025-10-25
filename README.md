@@ -1,13 +1,9 @@
 ﻿
-<h2 align="center" id="title1">$\color{#ff3d6a}{Установка GIT}$</h2>
-<h2 align="center" id="title1">$\color{green}{\textsf{Установка GIT}}$</h2>
-<h2 align="center" id="title1">$\color{green}{\textrm{Установка GIT}}$</h2>
-<h2 align="center" id="title1">$\color{green}{\texttt{Установка GIT}}$</h2>
-<h2 align="center" id="title1">$\color{green}{\textnormal{Установка GIT}}$</h2>
+<h2 align="center" id="title1">Установка GIT</h2>
 
 Скачать и установить https://git-scm.com/
 
-Документация
+<h4>Документация</h4>
 ```
 git
 ```  
@@ -15,6 +11,7 @@ git
 <h2 align="center" id="title2">Настройка</h2>
 
 Проверить версию GIT
+<h4></h4>
 ```
 git --version
 ```
@@ -109,18 +106,21 @@ git checkout <commit hash>
 
 <h2 align="center" id="title4">Создание удаленного репозитория</h2>
 
-Зарегистрироваться на https://github.com/
-Создайте удаленный репозиторий Create repository (Имя удаленного должно совпадать с локальным)
-Связать локальный репозиторий с удаленным.
+Зарегистрироваться на https://github.com/   
+Создайте удаленный репозиторий Create repository (Имя удаленного должно совпадать с локальным)   
 
-во вновь созданный удаленный репозиторий и найдите следующий раздел:
-...or push an existing repository from the command line
-Выполнить поочередно все команды из раздела
+Связать локальный репозиторий с удаленным.   
+
+во вновь созданный удаленный репозиторий и найдите следующий раздел:   
+...or push an existing repository from the command line   
+Выполнить поочередно все команды из раздела   
+```
 git remote add origin https://github.com/Имя_пользователя/Название_репозитория.git
 git branch -M main
 git push -u origin main
-будет предложено подтвердить намерения связать Git и GitHub.
+```
 
+будет предложено подтвердить намерения связать Git и GitHub.   
 
 Отправить изменения в удаленный репозиторий
 ```
