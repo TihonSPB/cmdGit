@@ -1,5 +1,9 @@
 ﻿
 <h2 align="center" id="title1">$\color{#ff3d6a}{Установка GIT}$</h2>
+<h2 align="center" id="title1">$\color{green}{\textsf{Установка GIT}}$</h2>
+<h2 align="center" id="title1">$\color{green}{\textrm{Установка GIT}}$</h2>
+<h2 align="center" id="title1">$\color{green}{\texttt{Установка GIT}}$</h2>
+<h2 align="center" id="title1">$\color{green}{\textnormal{Установка GIT}}$</h2>
 
 Скачать и установить https://git-scm.com/
 
